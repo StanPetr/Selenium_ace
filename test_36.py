@@ -32,9 +32,9 @@ def test_find_something(browser, number):
     
     # Вводим логин и пароль
     input1 = browser.find_element(By.CSS_SELECTOR, "#id_login_email")
-    input1.send_keys("setthat5@gmail.com")
+    input1.send_keys("///")
     input2 = browser.find_element(By.CSS_SELECTOR, "#id_login_password")
-    input2.send_keys("n+*cFRScm.L7QT8")
+    input2.send_keys("///")
     
     # Отправляем заполненную форму
     button2 = WebDriverWait(browser, 10).until(
